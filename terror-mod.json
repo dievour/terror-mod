@@ -1,0 +1,34 @@
+{
+  "id": "terror-mod",
+  "name": "Terror Mod",
+  "version": "0.0.0",
+  "min_manager_version": "1.0.0",
+  "author": "Despair",
+  "contact": "https://github.com/dievour/terror-mod",
+  "description": "A comprehensive gameplay overhaul for Resident Evil Outbreak FILE #1 & FILE #2. Reworks enemy aggression, scenario pacing, and survivor resource economy.",
+  "tags": ["stage"],
+  "games": [
+    {
+      "game_id": "re_outbreak_f1",
+      "supported_regions": ["NTSC-J"],
+      "crc_f1": "B6A45C10"
+    },
+    {
+      "game_id": "re_outbreak_f2",
+      "supported_regions": ["NTSC-J"],
+      "crc_f2": null
+    }
+  ],
+  "releases": [
+    {
+      "version": "0.0.0",
+      "released_at": "2026-04-23T00:00:00Z",
+      "download_url": "https://github.com/dievour/terror-mod/releases/download/v0.0.0/terror-mod-v0.0.0.zip",
+      "file_size_bytes": 0,
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "changelog": [
+        "Initial release."
+      ]
+    }
+  ]
+}
