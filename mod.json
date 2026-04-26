@@ -1,0 +1,72 @@
+{
+  "id": "terror-mod",
+  "name": "Terror Mod",
+  "version": "4.3.6",
+  "min_manager_version": "1.0.0",
+  "author": "Terror Mod Team",
+  "contact": "https://github.com/dievour/terror-mod",
+  "description": "A comprehensive difficulty-enhancing overhaul for Resident Evil Outbreak FILE #1 & FILE #2. Reworks enemy aggression, scenario pacing, and survivor resource economy.",
+  "tags": ["stage"],
+  "games": [
+    {
+      "game_id": "re_outbreak_f1",
+      "supported_regions": ["NTSC-J"],
+      "crc_f1": "B6A45C10"
+    },
+    {
+      "game_id": "re_outbreak_f2",
+      "supported_regions": ["NTSC-J"],
+      "crc_f2": null
+    }
+  ],
+  "releases": [
+    {
+      "version": "4.3.6",
+      "released_at": "2026-04-23T00:00:00Z",
+      "changelog": [
+        "Fixed a door in the Below Freezing Point scenario that was not correctly applying the reduced durability values for VH+, Expert, Pro, and Ultra Pro difficulties.",
+        "Fixed a door in the Decisions, Decisions scenario with the same durability misconfiguration across the same difficulty tiers.",
+        "Fixed a miscalculation causing a Licker in the Hellfire scenario to retain incorrect health values when its respawn flag was active.",
+        "Fixed a miscalculation causing a Licker in the Decisions, Decisions scenario to retain incorrect health values when its respawn flag was active.",
+        "Fixed an item incorrectly obstructing the view of a collectible file in the Below Freezing Point scenario.",
+        "Corrected inaccurate environment flavor text in the Hellfire scenario.",
+        "Corrected inaccurate environment flavor text in The Hive scenario.",
+        "Updated text content for several in-game documents across multiple scenarios.",
+        "G-Embryo initial lunge attack Bleed chance reduced from 10% to 0% in Below Freezing Point.",
+        "G-Embryo life drain attack Bleed chance reduced from 20% to 1% in Below Freezing Point.",
+        "Reduced Giant Moths in Below Freezing Point. Replacement enemies inserted into affected rooms.",
+        "SLPM file for PCSX2 Nightly updated to version 4.3.6."
+      ],
+      "archives": [
+        {
+          "filename": "terror-mod-f1-v4.3.6-exec.zip",
+          "description": "ELF executable and core game folders",
+          "download_url": "https://github.com/dievour/terror-mod/releases/download/v4.3.6/terror-mod-f1-v4.3.6-exec.zip",
+          "file_size_bytes": 15902000,
+          "sha256": "16236B1C4CDCC315FBA52D64601D6DB978DB767715CE2008E7E82AAE11A70FFD"
+        },
+        {
+          "filename": "terror-mod-f1-v4.3.6-netbio00.zip",
+          "description": "NETBIO00.DAT game data archive",
+          "download_url": "https://github.com/dievour/terror-mod/releases/download/v4.3.6/terror-mod-f1-v4.3.6-netbio00.zip",
+          "file_size_bytes": 460130000,
+          "sha256": "13455FC54A2352CE6FF041347D9259D3BC43058F8659123058FF408B677C373D"
+        },
+        {
+          "filename": "terror-mod-f1-v4.3.6-netbio01.zip",
+          "description": "NETBIO01.DAT game data archive",
+          "download_url": "https://github.com/dievour/terror-mod/releases/download/v4.3.6/terror-mod-f1-v4.3.6-netbio01.zip",
+          "file_size_bytes": 1200190000,
+          "sha256": "FFE69521114E407383E246090A62FBF8B1D484DEFF19F9442CD9947AB5B9E90F"
+        },
+        {
+          "filename": "terror-mod-f1-v4.3.6-netbio02.zip",
+          "description": "NETBIO02.DAT game data archive",
+          "download_url": "https://github.com/dievour/terror-mod/releases/download/v4.3.6/terror-mod-f1-v4.3.6-netbio02.zip",
+          "file_size_bytes": 1784360000,
+          "sha256": "57170909284698C7F231CF5030AC892DB5663ABA34A8B45657941974CF92FB9E"
+        }
+      ]
+    }
+  ]
+}
